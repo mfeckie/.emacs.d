@@ -9,4 +9,5 @@
 (add-hook 'sgml-mode-hook 'emmet-mode)
 (neotree)
 (setq projectile-switch-project-action 'neotree-projectile-action)
+(setq ring-bell-function 'ignore)
 ;;; martins-config ends here
