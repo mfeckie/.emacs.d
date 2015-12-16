@@ -10,4 +10,10 @@
 (neotree)
 (setq projectile-switch-project-action 'neotree-projectile-action)
 (setq ring-bell-function 'ignore)
+(setq create-lockfiles nil)
+
+;; disable jshint since we prefer eslint checking
+(setq-default flycheck-disabled-checkers
+              (append flycheck-disabled-checkers
+                      '(javascript-jshint)))
 ;;; martins-config ends here
