@@ -1,4 +1,3 @@
-;;; init.el --- Prelude's configuration entry point.
 ;;
 ;; Copyright (c) 2011 Bozhidar Batsov
 ;;
