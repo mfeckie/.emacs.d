@@ -1,0 +1,15 @@
+[hagrid]
+users = ['hagrid']
+rule = 'dragon_eggs/'
+
+[harry]
+users = ['harrypotter']
+rule = 'jinny.*'
+
+[polyjuice]
+users = ['hermione']
+rule = '.*polyjuice.*'
+
+[special_bad_regex]
+users = ['voldermort']
+rule = '*.harrypotter'
